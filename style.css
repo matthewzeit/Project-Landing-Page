@@ -1,10 +1,32 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: 'Roboto';
+    padding: 0px;
+    margin: 0px;
 }
 
 header {
     display: flex;
+    background-color: #1F2937;
+    color: #f9faf8;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    gap: 15px;
+}
+
+.Logo {
+   font-size: 24px; 
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
 .Matterhorn {
@@ -15,10 +37,13 @@ header {
 .GrandTetons {
     width: 100px;
     height: auto;
+    border: 2px solid  #3882F6;
 }
 
 .container1 {
     display: flex;
+    color: #f9faf8;
+    background-color: #1F2937;
 }
 
 .container2 {
@@ -37,4 +62,49 @@ header {
 
 .container4 {
     display: flex;
+}
+
+.container1-title {
+   font-size: 48px;
+   font-weight: 900; 
+}
+
+.container1-p {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: 700;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #f9faf8;
+}
+
+.container3 {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+}
+
+.container3-quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.container3-Thor {
+    color: #1F2937;
+    align-self: flex-end;
+}
+
+.container2-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
 }
