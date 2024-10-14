@@ -35,6 +35,9 @@ a {
 .Matterhorn {
     width: 300px;
     height: auto;
+    padding: 20px;
+    flex: 1;
+    max-width: 300px;
 }
 
 .GrandTetons {
@@ -45,9 +48,13 @@ a {
 
 .container1 {
     display: flex;
+    justify-content: center;
     color: #f9faf8;
     background-color: #1F2937;
     padding-bottom: 100px;
+    gap: 250px;
+    overflow: hidden;
+    align-items: center;
 }
 
 .container2 {
@@ -95,7 +102,7 @@ a {
 .container1-p {
     color: #E5E7EB;
     font-size: 18px;
-    width: 400px;
+    width: 250px;
 }
 
 button {
@@ -154,6 +161,7 @@ footer {
 .container4-0 {
     display: flex;
     justify-content: center;
+    background-color: #f9faf8;
 }
 
 h5 {
@@ -176,4 +184,10 @@ h5 {
 
 .container4-1 {
     padding-left: 30px;
+}
+
+.container1-1 {
+    flex: 1;
+    max-width: 100px;
+    padding: 20px;
 }
